@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo de carregamento de imagem</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://unpkg.com/markerjs2/markerjs2.js"></script>
+    <script>
+        
+    </script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="container_img" id="container">
+        <!-- <div class="thumbnail">
+            <img src="imgs/img_01.jpeg" alt="Imagem 1">
+        </div>
+        <div class="thumbnail">
+            <img src="imgs/img_02.jpg" alt="Imagem 2">
+        </div>
+        <div class="thumbnail">
+            <img src="imgs/img_03.jpg" alt="Imagem 3">
+        </div>
+        <div class="thumbnail">
+            <img src="imgs/img_04.jpg" alt="Imagem 4">
+        </div>
+        <div class="thumbnail">
+            <img src="imgs/img_05.jpg" alt="Imagem 5">
+        </div> -->
+    </div>
+
+    <div class="container_app">
+        <input type="text" id="url" placeholder="Digite a URL da imagem aqui">
+        <button class="button-34" role="button" onclick="carregarImagem()">Carregar imagem</button>
+        <div class="imagem">
+            <img id="imagem" src="imgs/img_01.jpeg" crossorigin="anonymous" alt="" onclick="showMarkerArea(this);">
+        </div>
+    </div>
+    <div class="todolist">
+        <ul>
+            <li>Inserir controles de zoom</li>
+            <li>Inserir controles de cor (brilho, contraste, inverter cores)</li>
+            <li><s>Inserir controles de marcadores na imagem (setas, números, círculos)></s></li>
+            <li>Carregar o json para uma varíavel dentro da aplicação. Fazer as modificações. Salvar no json.</li>
+            <li>Salvar os marcadores em um json e atribuir a cada imagem</li>
+            <li>Ao clicar na imagem, carregar a imagem junto com os marcadores</li>
+            <li>Adicionar um event blur, tipo if blur then close (sem salvar). Se clicar fora da imagem, sem salvar, então fecha.</li>
+            <li>Ou se clicar fora da imagem, blur, então salva/render.</li>
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/markerjs2/markerjs2.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

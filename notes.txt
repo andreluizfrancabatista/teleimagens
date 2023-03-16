@@ -1,0 +1,13 @@
+# url de uma panoramica
+https://eastportdentalaz.com/wp-content/uploads/2022/02/dental-x-ray-mesa-az.jpeg
+
+#CDN do markerjs (usar somente no prototipo)
+<script src="https://unpkg.com/markerjs2/markerjs2.js"></script>
+
+# Para a versão final, fazer o download no markerjs e NÃO confiar no CDN.
+
+# CDN do fabric.js
+<script src="https://unpkg.com/fabric@5.3.0/dist/fabric.min.js"></script>
+
+# Para a versão final, fazer o download no fabricjs e NÃO confiar no CDN.
+
