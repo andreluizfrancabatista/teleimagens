@@ -1,32 +1,67 @@
 [
     {
         "url": "imgs/img_01.jpeg",
-        "id": "001",
-        "descricao" : "Imagem 1",
-        "anotacoes" : {}
+        "id": "0",
+        "descricao": "Imagem 1",
+        "anotacoes": {
+            "width": 683,
+            "height": 370,
+            "markers": [
+                {
+                    "fillColor": "#EF4444",
+                    "strokeColor": "#EF4444",
+                    "strokeWidth": 3,
+                    "strokeDasharray": "",
+                    "opacity": 1,
+                    "left": 418,
+                    "top": 100,
+                    "width": 69,
+                    "height": 84,
+                    "rotationAngle": 0,
+                    "visualTransformMatrix": {
+                        "a": 1,
+                        "b": 0,
+                        "c": 0,
+                        "d": 1,
+                        "e": 0,
+                        "f": 0
+                    },
+                    "containerTransformMatrix": {
+                        "a": 1,
+                        "b": 0,
+                        "c": 0,
+                        "d": 1,
+                        "e": 0,
+                        "f": 0
+                    },
+                    "typeName": "EllipseMarker",
+                    "state": "select"
+                }
+            ]
+        }
     },
     {
         "url": "imgs/img_02.jpg",
-        "id": "002",
-        "descricao" : "Imagem 2",
-        "anotacoes" : {}
+        "id": "1",
+        "descricao": "Imagem 2",
+        "anotacoes": {}
     },
     {
         "url": "imgs/img_03.jpg",
-        "id": "003",
-        "descricao" : "Imagem 3",
-        "anotacoes" : {}
+        "id": "2",
+        "descricao": "Imagem 3",
+        "anotacoes": {}
     },
     {
         "url": "imgs/img_04.jpg",
-        "id": "004",
-        "descricao" : "Imagem 4",
-        "anotacoes" : {}
+        "id": "3",
+        "descricao": "Imagem 4",
+        "anotacoes": {}
     },
     {
         "url": "imgs/img_05.jpg",
-        "id": "005",
-        "descricao" : "Imagem 5",
-        "anotacoes" : {}
+        "id": "4",
+        "descricao": "Imagem 5",
+        "anotacoes": {}
     }
 ]

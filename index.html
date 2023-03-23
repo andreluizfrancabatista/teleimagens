@@ -4,30 +4,16 @@
 <head>
     <title>Exemplo de carregamento de imagem</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="https://unpkg.com/markerjs2/markerjs2.js"></script>
+    <script src="https://unpkg.com/markerjs2/markerjs2.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js" defer></script>
     <script>
-        
+
     </script>
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
     <div class="container_img" id="container">
-        <!-- <div class="thumbnail">
-            <img src="imgs/img_01.jpeg" alt="Imagem 1">
-        </div>
-        <div class="thumbnail">
-            <img src="imgs/img_02.jpg" alt="Imagem 2">
-        </div>
-        <div class="thumbnail">
-            <img src="imgs/img_03.jpg" alt="Imagem 3">
-        </div>
-        <div class="thumbnail">
-            <img src="imgs/img_04.jpg" alt="Imagem 4">
-        </div>
-        <div class="thumbnail">
-            <img src="imgs/img_05.jpg" alt="Imagem 5">
-        </div> -->
     </div>
 
     <div class="container_app">
@@ -45,7 +31,8 @@
             <li>Carregar o json para uma varíavel dentro da aplicação. Fazer as modificações. Salvar no json.</li>
             <li>Salvar os marcadores em um json e atribuir a cada imagem</li>
             <li>Ao clicar na imagem, carregar a imagem junto com os marcadores</li>
-            <li>Adicionar um event blur, tipo if blur then close (sem salvar). Se clicar fora da imagem, sem salvar, então fecha.</li>
+            <li>Adicionar um event blur, tipo if blur then close (sem salvar). Se clicar fora da imagem, sem salvar,
+                então fecha.</li>
             <li>Ou se clicar fora da imagem, blur, então salva/render.</li>
         </ul>
     </div>

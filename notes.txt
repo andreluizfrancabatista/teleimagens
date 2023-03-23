@@ -11,3 +11,6 @@ https://eastportdentalaz.com/wp-content/uploads/2022/02/dental-x-ray-mesa-az.jpe
 
 # Para a versão final, fazer o download no fabricjs e NÃO confiar no CDN.
 
+
+# Markerjs events
+https://markerjs.com/docs/events
